@@ -1,0 +1,45 @@
+import Image from 'next/image'
+
+const HACKATHONS = [
+  {
+    name: "Penn Blockchain Hackathon",
+    content:
+      "1st Place Solana Track -- Led a team of four to develop Inked, a dApp using Weavechain to enable Proof-of-Discovery for research papers on Solana, ensuring immutability and time of discovery for research ideas in a decentralized and secure manner.",
+    link: "https://dorahacks.io/buidl/4278",
+    date: "Feb 2023", 
+    image: <Image
+    src='/inked_slides.png'
+    alt='inked slides pic'
+    layout='fill'
+    className='rounded-md object-cover'
+  />
+  },
+  {
+    name: "VitaDAO Longevity Hackathon",
+    content:
+      "Decentralized Computing Special Prize ($1,500) -- Led a team of three to build a permissioned genomics data analyzer with compute-to-data & multiparty computation chaining using the Weavechain API; prepared slide deck presentation and created front-end using React and Web3.js",
+    link: "https://www.weavechain.com/learn-blog/geneweavers",
+    date: "Jan 2023", 
+    image: <Image
+    src='/geneweavers.png'
+    alt='geneweavers pic'
+    layout='fill'
+    className='rounded-md object-cover'
+  />
+  },
+  {
+    name: "HackaTRON at Harvard",
+    content:
+      "4th Place ($8,000) -- Developed a group payment-splitting dApp on the TRON blockchain with a team of five, rewarding users with rebate tokens to incentivize bulk user onboarding for subscription services using TronWeb.js, Solidity, React, and Next.js",
+    link: "https://github.com/ZILECAO/GroupBy",
+    date: "Nov 2022",
+    image: <Image
+    src='/groupby.png'
+    alt='groupby pic'
+    layout='fill'
+    className='rounded-md object-cover'
+  />
+  },
+];
+
+export { HACKATHONS };
