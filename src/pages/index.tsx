@@ -29,7 +29,7 @@ const Home: NextPage = () => {
         {showImage && <motion.div
           variants={Animations.picture}
           onAnimationComplete={() => setShowContent(true)}
-          className="relative h-64 overflow-hidden rounded-lg sm:h-80 order-last lg:h-full duration-5">
+          className="relative h-64 overflow-hidden rounded-lg sm:h-80 order-last lg:h-full duration-5 hover:ease-in-out hover:shadow-lg hover:transition hover:duration-700 hover:shadow-black">
           <Image
             src='/inked_team.png'
             alt='inked team pic'
@@ -87,14 +87,14 @@ const Home: NextPage = () => {
                 onAnimationComplete={() => setShowButtons(true)}>
 
                 <a
-                  className="text-gray-600 hover:text-gray-800/75"
+                  className="text-gray-600 hover:text-gray-700"
                   href="https://github.com/ZILECAO/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub"
                 >
                   <svg
-                    className="w-8 h-8"
+                    className="hover:ease-in-out hover:transition hover:duration-700 w-8 h-8"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
@@ -108,17 +108,17 @@ const Home: NextPage = () => {
                 </a>
 
                 <a
-                  className="text-blue-600 hover:text-blue-700"
+                  className="text-blue-600 hover:text-blue-700 "
                   href="https://www.linkedin.com/in/zilecao/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
                 >
-                  <svg className="h-8 w-8 text-blue-600 hover:text-blue-900" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />  <rect x="2" y="9" width="4" height="12" />  <circle cx="4" cy="4" r="2" /></svg>
+                  <svg className="hover:ease-in-out hover:transition hover:duration-700 h-8 w-8 text-blue-600 hover:text-blue-900" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />  <rect x="2" y="9" width="4" height="12" />  <circle cx="4" cy="4" r="2" /></svg>
                 </a>
 
                 <a
-                  className="text-blue-500 hover:text-blue-700/75 animate-wave"
+                  className="text-blue-500 hover:text-blue-700/75 animate-wave hover:ease-in-out hover:transition hover:duration-700"
                   href="https://twitter.com/zile_cao"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -153,16 +153,16 @@ const Home: NextPage = () => {
             >
               <Link href="/projects">
               <a
-                className="font-semibold mt-8 inline-flex items-center rounded bg-indigo-500 px-6 py-3 hover:bg-indigo-600 focus:outline-none focus:ring active:text-indigo-500 text-gray-300"
+                className="font-semibold mt-8 inline-flex items-center rounded bg-indigo-500 px-6 py-3 hover:bg-indigo-600 focus:outline-none focus:ring active:text-indigo-500 text-gray-300 hover:ease-in-out hover:transition hover:duration-700"
               >
-                <span className="text-sm font-medium"> My Projects </span>
+                <span className="text-sm font-medium "> My Projects </span>
 
               </a>
               </Link>
 
               <Link href="https://github.com/ZILECAO/zile-portfolio-3">
               <a
-                className="font-semibold mt-8 inline-flex items-center rounded bg-transparent border-indigo-500 border px-8 py-3 hover:bg-indigo-500 focus:outline-none focus:ring text-indigo-400 hover:text-gray-300"
+                className="font-semibold mt-8 inline-flex items-center rounded bg-transparent border-indigo-500 border px-8 py-3 hover:border-indigo-600 focus:outline-none focus:ring text-indigo-400 hover:text-indigo-500 hover:ease-in-out hover:transition hover:duration-700"
               >
                 <span className="text-sm font-medium"> View Code </span>
 

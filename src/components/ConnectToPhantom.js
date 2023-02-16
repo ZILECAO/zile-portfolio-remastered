@@ -59,7 +59,7 @@ const ConnectToPhantom = ({ connected, setConnected }) => {
                 <>
                     <p
                         
-                        className='hidden md:hidden lg:block cursor-text text-gray-400 text-sm font-semibold md:w-[90%] my-5'>
+                        className='hidden md:hidden lg:block cursor-text text-gray-400 text-sm font-semibold md:w-[90%] my-5 '>
                         {/* TODO: Make these environment variables */}
                         {/* {process.env.CONTACT_INFO} */}
                         | Email: zilecao@sas.upenn.edu |
@@ -68,7 +68,7 @@ const ConnectToPhantom = ({ connected, setConnected }) => {
                     </p>
                     
                     <button
-                        className="py-2 px-4 border border-indigo-400 rounded-md text-sm font-semibold text-indigo-400 whitespace-nowrap hover:border-indigo-500 hover:text-indigo-500"
+                        className="py-2 px-4 border border-indigo-400 rounded-md text-sm font-semibold text-indigo-400 whitespace-nowrap hover:border-indigo-500 hover:text-indigo-500 hover:ease-in-out hover:transition hover:duration-700"
                     >
                         {/* only return the first 3 and last 4 of pubkey */}
                         {pubkey.slice(0, 3)}...{pubkey.slice(-4)}
@@ -84,7 +84,7 @@ const ConnectToPhantom = ({ connected, setConnected }) => {
                 <div >
                     <button
                         onClick={connectHandler}
-                        className="items-center justify-end py-2 px-4 bg-gray-700 rounded-md text-sm font-semibold text-indigo-300 whitespace-nowrap hover:bg-gray-800 hover:text-indigo-400 hover:shadow-indigo-500/50 hover:shadow-md shadow-indigo-400/50 sm:overflow-hidden"
+                        className="items-center justify-end py-2 px-4 bg-gray-700 rounded-md text-sm font-semibold text-indigo-300 whitespace-nowrap hover:bg-gray-800 hover:text-indigo-400 hover:shadow-indigo-500/50 hover:shadow-md shadow-indigo-400/50 sm:overflow-hidden hover:ease-in-out hover:transition hover:duration-700"
                     >
                         Connect Phantom
                     </button>

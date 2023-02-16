@@ -30,7 +30,7 @@ const PERSONAL_PROJECTS = [
   {
     name: "Arctic Penguins NFT Collection",
     content:
-      "Generated 2222 unique pieces of artwork using the Hashlips Art Engine and deployed them to OpenSea; created a minting website using React and the Ethereum Hardhat development environment.",
+      "Generated 2222 unique pieces of artwork using the Hashlips Art Engine and deployed them to OpenSea; minting website built using React and Hardhat",
     link: "https://friendly-blini-65db18.netlify.app/",
     date: "May 2022",
     image: <Image

@@ -41,7 +41,7 @@ const Home: NextPage = () => {
                             <p className="text-sm text-gray-400 font-display mb-4">{content}</p>
                             <p className="text-sm text-white font-display mb-4">{date}</p>
                             <Link href={link}>
-                                <a target='_blank' className="font-display underline text-indigo-300 hover:text-indigo-400">Project Link</a>
+                                <a target='_blank' className="font-display underline text-indigo-300 hover:text-indigo-400 hover:ease-in-out hover:transition hover:duration-700">Project Link</a>
                             </Link>
                         </div>
                     ))}
@@ -70,7 +70,7 @@ const Home: NextPage = () => {
                             <p className="text-sm text-gray-400 font-display mb-4">{content}</p>
                             <p className="text-sm text-white font-display mb-4">{date}</p>
                             <Link href={link}>
-                                <a target='_blank' className="font-display underline text-indigo-300 hover:text-indigo-400">Project Link</a>
+                                <a target='_blank' className="font-display underline text-indigo-300 hover:text-indigo-400 hover:ease-in-out hover:transition hover:duration-700">Project Link</a>
                             </Link>
                         </div>
                     ))}
@@ -98,7 +98,7 @@ const Home: NextPage = () => {
                             <p className="text-sm text-gray-400 font-display mb-4">{content}</p>
                             <p className="text-sm text-white font-display mb-4">{date}</p>
                             <Link href={link}>
-                                <a target='_blank' className="font-display underline text-indigo-300 hover:text-indigo-400">Project Link</a>
+                                <a target='_blank' className="font-display underline text-indigo-300 hover:text-indigo-400 hover:ease-in-out hover:transition hover:duration-700">Project Link</a>
                             </Link>
                         </div>
                     ))}
