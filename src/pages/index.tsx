@@ -151,21 +151,23 @@ const Home: NextPage = () => {
               }}
               className="flex flex-row justify-start gap-4 items-center"
             >
+              <Link href="/projects">
               <a
-                href="/projects"
                 className="font-semibold mt-8 inline-flex items-center rounded bg-indigo-500 px-6 py-3 hover:bg-indigo-600 focus:outline-none focus:ring active:text-indigo-500 text-gray-300"
               >
                 <span className="text-sm font-medium"> My Projects </span>
 
               </a>
+              </Link>
 
+              <Link href="https://github.com/ZILECAO/zile-portfolio-3">
               <a
-                href="https://github.com/ZILECAO/zile-portfolio"
                 className="font-semibold mt-8 inline-flex items-center rounded bg-transparent border-indigo-500 border px-8 py-3 hover:bg-indigo-500 focus:outline-none focus:ring text-indigo-400 hover:text-gray-300"
               >
                 <span className="text-sm font-medium"> View Code </span>
 
               </a>
+              </Link>
 
             </motion.section>
 
