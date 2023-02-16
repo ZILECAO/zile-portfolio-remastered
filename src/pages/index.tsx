@@ -29,7 +29,7 @@ const Home: NextPage = () => {
         {showImage && <motion.div
           variants={Animations.picture}
           onAnimationComplete={() => setShowContent(true)}
-          className="relative h-64 overflow-hidden rounded-lg sm:h-80 order-last lg:h-full duration-5 hover:ease-in-out hover:shadow-lg hover:transition hover:duration-700 hover:shadow-black">
+          className="relative h-64 overflow-hidden rounded-lg sm:h-80 order-last lg:h-full duration-5 hover:ease-in-out shadow-md shadow-black">
           <Image
             src='/inked_team.png'
             alt='inked team pic'
