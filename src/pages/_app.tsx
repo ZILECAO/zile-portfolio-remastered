@@ -3,6 +3,9 @@ import type { AppType } from "next/dist/shared/lib/utils";
 import Head from "next/head";
 import { NavBar } from "../components/NavBar.js";
 import { useState } from "react";
+import { Web3Provider } from '@ethersproject/providers';
+import { ethers, Wallet } from "ethers";
+
 
 
 const MyApp: AppType = ({ Component, pageProps }) => {

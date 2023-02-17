@@ -4,7 +4,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import ConnectToPhantom from "./ConnectToPhantom";
 import { Animations } from "../variants/animations";
-import WalletConnect from "./WalletConnect";
+import WalletConnect from "./walletConnect";
+import { Web3Provider } from '@ethersproject/providers';
+import { ethers, Wallet } from "ethers";
+
 
 
 export function NavBar() {
@@ -28,11 +31,11 @@ export function NavBar() {
 
           <div className="flex text-sm items-center gap-6 justify-start">
 
-          <Link href="/projects">
-              <p className="hidden md:block lg:block cursor-pointer text-sm font-semibold text-gray-400 hover:text-gray-500 hover:ease-in-out hover:transition hover:duration-700">
-                Projects
-              </p>
-          </Link>
+            <Link href="/projects">
+                <p className="hidden md:block lg:block cursor-pointer text-sm font-semibold text-gray-400 hover:text-gray-500 hover:ease-in-out hover:transition hover:duration-700">
+                  Projects
+                </p>
+            </Link>
 
 
             <WalletConnect />

@@ -24,7 +24,6 @@ const WalletConnect = () => {
 
 
                 setWalletAddress(accounts[0]);
-                getBalance();
 
                 if (accounts.length > 0) {
                     setAuthenticated(true);
@@ -32,6 +31,7 @@ const WalletConnect = () => {
                     setAuthenticated(false);
                 }
 
+                console.log("this is the wallet address", walletAddress)
                 console.log('auth detected', authenticated)
 
             } catch (error) {
