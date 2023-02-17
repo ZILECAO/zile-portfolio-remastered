@@ -19,3 +19,7 @@ LinkedIn: https://www.linkedin.com/in/zilecao/
 yarn install 
 yarn dev
 ```
+
+### Known Issues
+
+Sometimes the Connect Phantom Wallet button does not switch properly even with Phantom installed. Close the tab and reopen the website again and it should be fixed.
