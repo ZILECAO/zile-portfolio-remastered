@@ -52,7 +52,7 @@ const ConnectToPhantom = ({ connected, setConnected }) => {
         router.push(path)
     };
 
-    if (phantom) {
+
         if (connected) {
             console.log("connected")
             return (
@@ -91,16 +91,8 @@ const ConnectToPhantom = ({ connected, setConnected }) => {
                 </div>
             );
         }
-    }
-    return (
-        <Link
-            href="https://phantom.app/"> 
-            <div className="bg-indigo-500 hover:bg-indigo-600 px-4 py-2 border border-transparent rounded-md font-medium text-white cursor-pointer">
-                Get Phantom
-            </div>
-        </Link>
-    );
-}
+    } 
+
 
 
 export default ConnectToPhantom;
