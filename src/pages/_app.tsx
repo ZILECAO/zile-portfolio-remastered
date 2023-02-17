@@ -16,7 +16,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
       />
       <link rel='icon' href='/favicon.ico' />
     </Head>
-    <NavBar connected={connected} setConnected={setConnected} />
+    <NavBar />
     < Component className="scroll-smooth" {...pageProps} />
   </>)
 };
