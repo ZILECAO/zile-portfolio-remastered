@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import ConnectToPhantom from "./ConnectToPhantom";
 import { Animations } from "../variants/animations";
-import WalletConnect from "./walletConnect";
+import WalletConnect from "./WalletConnect";
 import { Web3Provider } from '@ethersproject/providers';
 import { ethers, Wallet } from "ethers";
 
