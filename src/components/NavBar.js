@@ -4,9 +4,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import ConnectToPhantom from "./ConnectToPhantom";
 import { Animations } from "../variants/animations";
+import WalletConnect from "./WalletConnect";
 
 
-export function NavBar({ connected, setConnected }) {
+export function NavBar() {
   // Top Navigation Bar Element
   return (
 
@@ -34,7 +35,7 @@ export function NavBar({ connected, setConnected }) {
           </Link>
 
 
-            <ConnectToPhantom connected={connected} setConnected={setConnected} key={connected} />
+            <WalletConnect />
 
           </div>
 
