@@ -28,7 +28,6 @@ const Home: NextPage = () => {
         {/* Picture */}
         {showImage && <motion.div
           variants={Animations.picture}
-          onAnimationComplete={() => setShowContent(true)}
           className="relative h-64 overflow-hidden rounded-lg sm:h-80 order-last lg:h-full duration-5 hover:ease-in-out shadow-md shadow-black">
           <Image
             src='/skateboard.png'
@@ -38,11 +37,11 @@ const Home: NextPage = () => {
           />
         </motion.div>}
 
+        {/* Animated Letters */}
         <div className='pb-8'>
-          {/* Animated Letters */}
           <motion.div
             variants={Animations.container}
-            onAnimationComplete={() => delay(400).then(() => setShowImage(true))}
+            onAnimationComplete={() => delay(400).then(() => setShowContent(true))}
           >
             <AnimatedLetters title="Hey, I'm Zile" />
           </motion.div>
@@ -141,6 +140,7 @@ const Home: NextPage = () => {
             </motion.div>
             }
 
+            {/* Content */}
             {showButtons && <motion.section
               initial={{
                 opacity: 0, y: 20,
@@ -150,6 +150,8 @@ const Home: NextPage = () => {
                 transition: { duration: .7, delay: 0.2 }
               }}
               className="flex flex-row justify-start gap-4 items-center"
+              onAnimationComplete={() => setShowImage(true)}
+              
             >
               <Link href="/projects">
               <a
