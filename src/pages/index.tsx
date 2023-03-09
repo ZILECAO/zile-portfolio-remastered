@@ -66,7 +66,7 @@ const Home: NextPage = () => {
             {showContent && <motion.p
               variants={Animations.FadeLeft}
               className='text-indigo-300 text-base font-medium font-serif md:w-[90%] my-5'>
-              Connect your MetaMask Wallet to view my contact info! {/* TODO: and download my Resume */}
+              Connect your MetaMask Wallet to view my Resume! {/* TODO: and download my Resume */}
             </motion.p>}
 
             {showContent && <motion.div

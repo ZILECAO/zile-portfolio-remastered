@@ -1,6 +1,8 @@
 import { ethers, Wallet } from "ethers";
 import { useEffect, useState } from "react";
 import { Web3Provider } from '@ethersproject/providers';
+import Link from 'next/link'
+
 
 const WalletConnect = () => {
 
@@ -66,18 +68,16 @@ Install at: https://metamask.io/`
             console.log("connected")
             return (
                 <>
-                    <p
+                    <Link href="https://gateway.pinata.cloud/ipfs/QmUxsRKvpaCSZ1jBt9q3coPhRyfE5SLEcRrWoyWYtyRWvL?_gl=1*x5jloo*_ga*Njg3MTI5NzQwLjE2NzE1ODQyNzQ.*_ga_5RMPXG14TE*MTY3ODM1ODM3NC40LjEuMTY3ODM1ODM3OS41NS4wLjA.">
+                    <button
 
-                        className='hidden md:hidden lg:block cursor-text text-gray-400 text-sm font-semibold md:w-[90%] my-5 '>
-                        {/* TODO: Make these environment variables */}
-                        {/* {process.env.CONTACT_INFO} */}
-                        | Email: zilecao@sas.upenn.edu |
-                        Telegram: @zile_cao |
-                        {/* TODO: implement download Resume option after wallet connection */}
-                    </p>
+                        className='hidden md:block lg:block cursor-pointer text-sm font-semibold text-gray-400 hover:text-gray-500 hover:ease-in-out hover:transition hover:duration-700'>
+                        View Resume
+                    </button>
+                    </Link>
 
                     <button
-                        className="py-2 px-4 border border-indigo-400 rounded-md text-sm font-semibold text-indigo-400 whitespace-nowrap hover:border-indigo-500 hover:text-indigo-500 hover:ease-in-out hover:transition hover:duration-700"
+                        className="cursor-default py-2 px-4 border border-indigo-400 rounded-md text-sm font-semibold text-indigo-400 whitespace-nowrap hover:border-indigo-500 hover:text-indigo-500 hover:ease-in-out hover:transition hover:duration-700"
                     >
                         {/* only return the first 3 and last 4 of wallet address */}
                         {walletAddress.slice(0, 5)}...{walletAddress.slice(-4)}
