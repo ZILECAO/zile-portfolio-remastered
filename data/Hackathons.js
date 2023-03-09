@@ -5,7 +5,7 @@ const HACKATHONS = [
     name: "ETHDenver Hackathon",
     content:
       "Main Track Finalist, Top 15 of 300+ Submissions ($2,500)  -- Led a team of four to develop Inheritable, a GDPR-compliant solution for secure, decentralized inheritance on the blockchain through verifiable Merkle Trees, quantum-resistant dilithium signatures, and decentralized oracles.",
-    link: "https://twitter.com/zile_cao/status/1632613895142801410?s=20",
+    link: "https://github.com/weavechain-web3/inheritable",
     date: "Mar 2023", 
     image: <Image
     src='/ethdenver.JPG'
