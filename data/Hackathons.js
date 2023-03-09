@@ -21,7 +21,7 @@ const HACKATHONS = [
     link: "https://dorahacks.io/buidl/4278",
     date: "Feb 2023", 
     image: <Image
-    src='/pitching.jpg'
+    src='/pitching.JPG'
     alt='inked slides pic'
     layout='fill'
     className='rounded-md object-cover'
