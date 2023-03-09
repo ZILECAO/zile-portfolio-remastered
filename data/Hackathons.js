@@ -2,9 +2,22 @@ import Image from 'next/image'
 
 const HACKATHONS = [
   {
+    name: "ETHDenver Hackathon",
+    content:
+      "Main Track Finalist, Top 15 of 300+ Submissions ($2,500)  -- Led a team of four to develop Inheritable, a GDPR-compliant solution for secure, decentralized inheritance on the blockchain through verifiable Merkle Trees, quantum-resistant dilithium signatures, and decentralized oracles.",
+    link: "https://twitter.com/zile_cao/status/1632613895142801410?s=20",
+    date: "Mar 2023", 
+    image: <Image
+    src='/ethdenver.JPG'
+    alt='ethdenver pic'
+    layout='fill'
+    className='rounded-md object-cover'
+  />
+  },
+  {
     name: "Penn Blockchain Hackathon",
     content:
-      "1st Place Solana Track -- Led a team of four to develop Inked, a dApp using Weavechain to enable Proof-of-Discovery for research papers on Solana, ensuring immutability and time of discovery for research ideas in a decentralized and secure manner.",
+      "1st Place Solana Track -- Led a team of five to develop Inked, a dApp using Weavechain to enable Proof-of-Discovery for research papers on Solana, ensuring immutability and time of discovery for research ideas in a decentralized and secure manner.",
     link: "https://dorahacks.io/buidl/4278",
     date: "Feb 2023", 
     image: <Image
