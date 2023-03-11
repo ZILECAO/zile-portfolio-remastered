@@ -68,7 +68,7 @@ Install at: https://metamask.io/`
             console.log("connected")
             return (
                 <>
-                    <Link href="https://gateway.pinata.cloud/ipfs/QmUxsRKvpaCSZ1jBt9q3coPhRyfE5SLEcRrWoyWYtyRWvL?_gl=1*x5jloo*_ga*Njg3MTI5NzQwLjE2NzE1ODQyNzQ.*_ga_5RMPXG14TE*MTY3ODM1ODM3NC40LjEuMTY3ODM1ODM3OS41NS4wLjA.">
+                    <Link href="https://gateway.pinata.cloud/ipfs/QmRVt1UymAtvQQmu3vGzzwW9sXYr8PeJAxT58GgEa4J7Jc?_gl=1*lb64f*_ga*Njg3MTI5NzQwLjE2NzE1ODQyNzQ.*_ga_5RMPXG14TE*MTY3ODUwMTI0MS42LjAuMTY3ODUwMTI0NC41Ny4wLjA.">
                     <button
 
                         className='hidden md:block lg:block cursor-pointer text-sm font-semibold text-gray-400 hover:text-gray-500 hover:ease-in-out hover:transition hover:duration-700'>
