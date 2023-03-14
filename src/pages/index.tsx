@@ -60,7 +60,7 @@ const Home: NextPage = () => {
             {showContent && <motion.p
               variants={Animations.FadeRight}
               className='text-gray-400 text-base font-medium font-serif md:w-[92%] my-5'>
-              A little bit about me -- I am currently a 3rd-year student at the University of Pennsylvania studying economics and computer science. I am a web3 fanatic and have been learning blockchain development for a little over a year. I specialize in full-stack dApp and web development, and I am always passionate about building projects in ecosystems like Solana. I am most interested in Web3 private data, decentralized science, and blockchain gaming!
+              A little bit about me -- I am currently a 3rd-year student at the University of Pennsylvania studying economics and computer science. I am a web3 fanatic and have been learning blockchain development for quite some time. I specialize in full-stack dApp and web development, and I am always passionate about building projects in ecosystems like Solana. I am most interested in Web3 private data, decentralized science, and blockchain gaming!
             </motion.p>}
 
             {showContent && <motion.p
