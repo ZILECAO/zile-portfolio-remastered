@@ -4,7 +4,7 @@ const HACKATHONS = [
   {
     name: "ETHDenver Hackathon",
     content:
-      "Main Track Finalist (Top 15 of 350+ Submissions) and Base Bounty Winner ($5,500)  -- Led a team of four to develop Inheritable, a GDPR-compliant solution for secure, decentralized inheritance on the blockchain through verifiable Merkle Trees, quantum-resistant dilithium signatures, and decentralized oracles.",
+      "Main Track Finalist (Top 15 of 350+ Submissions) and Base Bounty Winner ($5,500)  -- Led a team of four to develop Inheritable, a GDPR-compliant solution for secure, decentralized inheritance on the Base L2 through verifiable Merkle Trees, quantum-resistant dilithium signatures, and decentralized oracles.",
     link: "https://app.buidlbox.io/projects/inheritable",
     date: "Mar 2023", 
     image: <Image
@@ -13,11 +13,23 @@ const HACKATHONS = [
     layout='fill'
     className='rounded-md object-cover'
   />
+  },{
+    name: "Solana Grizzlython Hackathon",
+    content:
+      "Honorable Mention - Selected as one of five EasyA honorable mentions out of the highly competitive 800+ submissions in the month-long hackathon. Developed Inheritable, a GDPR-compliant solution for secure, decentralized inheritance on Solana through verifiable Merkle Trees, quantum-resistant dilithium signatures, and decentralized oracles.",
+    link: "https://github.com/ZILECAO/inheritable-final-submission",
+    date: "Mar 2023", 
+    image: <Image
+    src='/grizzlython.png'
+    alt='grizzlython pic'
+    layout='fill'
+    className='rounded-md object-cover'
+  />
   },
   {
     name: "Penn Blockchain Hackathon",
     content:
-      "1st Place Solana Track -- Led a team of five to develop Inked, a dApp using Weavechain to enable Proof-of-Discovery for research papers on Solana, ensuring immutability and time of discovery for research ideas in a decentralized and secure manner.",
+      "1st Place Solana Track ($600) -- Led a team of five to develop Inked, a dApp using Weavechain to enable Proof-of-Discovery for research papers on Solana, ensuring immutability and time of discovery for research ideas in a decentralized and secure manner.",
     link: "https://dorahacks.io/buidl/4278",
     date: "Feb 2023", 
     image: <Image
