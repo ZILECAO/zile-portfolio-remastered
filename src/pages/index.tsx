@@ -30,8 +30,8 @@ const Home: NextPage = () => {
           variants={Animations.picture}
           className="relative h-64 overflow-hidden rounded-lg sm:h-80 order-last lg:h-full duration-5 hover:ease-in-out shadow-md shadow-black">
           <Image
-            src='/skateboard.png'
-            alt='skateboard pic'
+            src='/IMG_1600.jpg'
+            alt='landing page picture'
             layout='fill'
             className='rounded-md object-cover'
           />
@@ -60,7 +60,7 @@ const Home: NextPage = () => {
             {showContent && <motion.p
               variants={Animations.FadeRight}
               className='text-gray-400 text-base font-medium font-serif md:w-[92%] my-5'>
-              A little bit about me -- I am currently a rising senior at the University of Pennsylvania studying economics and computer science. I am a web3 fanatic and have been learning blockchain development for quite some time. I specialize in full-stack dApp and web development, though currently on a short hiatus exploring NFT venture capital at Metaversal. With a love of teaching, I am also a Solana University Ambassador, onboarding new developers to the ecosystem and helping them build their first projects. I am most interested in Web3 private data, decentralized science, and blockchain gaming!
+              A little bit about me -- I am a senior at the University of Pennsylvania studying economics and computer science. I have been learning full-stack blockchain development for quite some time, and have previously placed finalist in various hackathons like ETHDenver. Currently, I am on a short hiatus exploring NFT venture capital at Metaversal. I am also a co-director at Penn Blockchain and a University Ambassador for the Solana Foundation. I am most interested in Bitcoin Ordinals, Web3 private data, and blockchain gaming!
             </motion.p>}
 
             {showContent && <motion.p
