@@ -30,7 +30,7 @@ const Home: NextPage = () => {
           variants={Animations.picture}
           className="relative h-64 overflow-hidden rounded-lg sm:h-80 order-last lg:h-full duration-5 hover:ease-in-out shadow-md shadow-black">
           <Image
-            src='/IMG_1600.jpg'
+            src='/october.jpg'
             alt='landing page picture'
             layout='fill'
             className='rounded-md object-cover'
