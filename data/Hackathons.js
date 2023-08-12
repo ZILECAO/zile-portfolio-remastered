@@ -4,7 +4,7 @@ const HACKATHONS = [
   {
     name: "Seize CTRL Website",
     content:
-      "Built the website for a Bitcoin Ordinals project which generated $700,000 USD in revenue using React & Framer.js",
+      "Built the website animations for a Bitcoin Ordinals project which generated $700,000 USD in revenue using React & Framer.js",
     link: "https://www.seizectrl.io/",
     date: "July 2023",
     image: <Image
