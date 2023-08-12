@@ -30,15 +30,15 @@ const Home: NextPage = () => {
                 }}
                 onAnimationComplete={() => setShowProjects(true)}
                 className="pt-20">
-                <h1 id="Hackathons" className="text-3xl font-semibold font-display text-indigo-300 pb-6 px-8">Hackathons</h1>
+                <h1 id="Hackathons" className="text-3xl font-semibold font-display text-indigo-300 pb-6 px-8">Professional Work & Hackathons</h1>
 
                 <div
-                    className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 px-8'>
+                    className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 px-8 items-start'>
                     {HACKATHONS.map(({ name, content, link, date, image}, index) => (
                         <div key={index} className='p-4 transition duration-700 ease-in-out backdrop-brightness-50 backdrop-blur-md text-gray-100 shadow-xs shadow-black rounded-lg hover:shadow-2xl hover:shadow-black'>
                             <h3 className="font-display font-medium text-2xl mb-4">{name}</h3>
-                            <div className="w-full relative rounded-lg sm:h-80 order-last lg:h-[200px] duration-5 mb-4">{image}</div>
-                            <p className="text-sm text-gray-400 font-display mb-4">{content}</p>
+                            <div className="w-full relative rounded-lg duration-5 mb-4">{image}</div>
+                            <p className="text-sm text-gray-400 font-display max-w-md mb-4">{content}</p>
                             <p className="text-sm text-white font-display mb-4">{date}</p>
                             <Link href={link}>
                                 <a target='_blank' className="font-display underline text-indigo-300 hover:text-indigo-400 hover:ease-in-out hover:transition hover:duration-700">Project Link</a>
@@ -60,14 +60,14 @@ const Home: NextPage = () => {
                 }}
                 onAnimationComplete={() => setShowWritings(true)}
                 className="pt-20">
-                <h1 id="Projects" className="text-3xl font-semibold font-display text-indigo-300 pb-6 px-8">Projects</h1>
+                <h1 id="Projects" className="text-3xl font-semibold font-display text-indigo-300 pb-6 px-8">Personal Projects</h1>
                 <div
-                    className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 px-8'>
+                    className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 px-8 items-start'>
                     {PERSONAL_PROJECTS.map(({ name, content, link, date, image}, index) => (
                         <div key={index} className='p-4 transition duration-700 ease-in-out backdrop-brightness-50 backdrop-blur-md text-gray-100 shadow-xs shadow-black rounded-lg hover:shadow-2xl hover:shadow-black'>
                             <h3 className="font-display font-medium text-2xl mb-4">{name}</h3>
-                            <div className="w-full relative rounded-lg sm:h-80 order-last lg:h-[200px] duration-5 mb-4">{image}</div>
-                            <p className="text-sm text-gray-400 font-display mb-4">{content}</p>
+                            <div className="w-full relative rounded-lg duration-5 mb-4">{image}</div>
+                            <p className="text-sm text-gray-400 font-display max-w-md mb-4">{content}</p>
                             <p className="text-sm text-white font-display mb-4">{date}</p>
                             <Link href={link}>
                                 <a target='_blank' className="font-display underline text-indigo-300 hover:text-indigo-400 hover:ease-in-out hover:transition hover:duration-700">Project Link</a>
@@ -90,12 +90,12 @@ const Home: NextPage = () => {
                 className="pt-20 pb-48">
                 <h1 id="Writing" className="text-3xl font-semibold font-display text-indigo-300 pb-6 px-8">My Writing</h1>
                 <div
-                    className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 px-8'>
+                    className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 px-8 items-start'>
                     {MY_WRITING.map(({ name, content, link, date, image}, index) => (
                         <div key={index} className='p-4 transition duration-700 ease-in-out backdrop-brightness-50 backdrop-blur-md text-gray-100 shadow-xs shadow-black rounded-lg hover:shadow-2xl hover:shadow-black'>
                             <h3 className="font-display font-medium text-2xl mb-4">{name}</h3>
-                            <div className="w-full relative rounded-lg sm:h-80 order-last lg:h-[200px] duration-5 mb-4">{image}</div>
-                            <p className="text-sm text-gray-400 font-display mb-4">{content}</p>
+                            <div className="w-full relative rounded-lg duration-5 mb-4">{image}</div>
+                            <p className="text-sm text-gray-400 font-display max-w-md mb-4">{content}</p>
                             <p className="text-sm text-white font-display mb-4">{date}</p>
                             <Link href={link}>
                                 <a target='_blank' className="font-display underline text-indigo-300 hover:text-indigo-400 hover:ease-in-out hover:transition hover:duration-700">Project Link</a>

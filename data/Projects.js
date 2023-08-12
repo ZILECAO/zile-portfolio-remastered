@@ -10,7 +10,8 @@ const PERSONAL_PROJECTS = [
     image: <Image
     src='/tweet_generator.png'
     alt='tweet generator pic'
-    layout='fill'
+    height={270}
+    width={480}
     className='rounded-md object-cover'
   />
   },
@@ -23,7 +24,8 @@ const PERSONAL_PROJECTS = [
     image: <Image
     src='/eth_dapp_starter.png'
     alt='eth dapp starter pic'
-    layout='fill'
+    height={270}
+    width={480}
     className='rounded-md object-cover'
   />
   },
@@ -36,7 +38,8 @@ const PERSONAL_PROJECTS = [
     image: <Image
     src='/arctic_penguins.png'
     alt='arctic penguins pic'
-    layout='fill'
+    height={270}
+    width={480}
     className='rounded-md object-cover'
   />
   },

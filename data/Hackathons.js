@@ -2,6 +2,19 @@ import Image from 'next/image'
 
 const HACKATHONS = [
   {
+    name: "Seize CTRL Website",
+    content:
+      "Built the website for a Bitcoin Ordinals project which generated $700,000 USD in revenue using React & Framer.js",
+    link: "https://www.seizectrl.io/",
+    date: "July 2023",
+    image: <Image
+    src='/seize-ctrl.png'
+    alt='seize ctrl pic'
+    height={270}
+    width={480}
+    className='rounded-md object-cover'
+  />
+  },{
     name: "ETHDenver Hackathon",
     content:
       "Main Track Finalist (Top 15 of 350+ Submissions) and Base Bounty Winner ($5,500)  -- Led a team of four to develop Inheritable, a GDPR-compliant solution for secure, decentralized inheritance on the Base L2 through verifiable Merkle Trees, quantum-resistant dilithium signatures, and decentralized oracles.",
@@ -10,7 +23,8 @@ const HACKATHONS = [
     image: <Image
     src='/ethdenver.JPG'
     alt='ethdenver pic'
-    layout='fill'
+    height={270}
+    width={480}
     className='rounded-md object-cover'
   />
   },{
@@ -22,7 +36,8 @@ const HACKATHONS = [
     image: <Image
     src='/grizzlython.png'
     alt='grizzlython pic'
-    layout='fill'
+    height={270}
+    width={480}
     className='rounded-md object-cover'
   />
   },
@@ -35,7 +50,8 @@ const HACKATHONS = [
     image: <Image
     src='/pitching.JPG'
     alt='inked slides pic'
-    layout='fill'
+    height={270}
+    width={480}
     className='rounded-md object-cover'
   />
   },
@@ -48,7 +64,8 @@ const HACKATHONS = [
     image: <Image
     src='/geneweavers.png'
     alt='geneweavers pic'
-    layout='fill'
+    height={270}
+    width={480}
     className='rounded-md object-cover'
   />
   },
@@ -61,7 +78,8 @@ const HACKATHONS = [
     image: <Image
     src='/groupby.png'
     alt='groupby pic'
-    layout='fill'
+    height={270}
+    width={480}
     className='rounded-md object-cover'
   />
   },

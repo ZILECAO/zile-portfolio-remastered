@@ -32,8 +32,8 @@ const Home: NextPage = () => {
           <Image
             src='/october.jpg'
             alt='landing page picture'
-            layout='fill'
             className='rounded-md object-cover'
+            layout='fill'
           />
         </motion.div>}
 
