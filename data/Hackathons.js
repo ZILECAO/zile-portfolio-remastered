@@ -2,19 +2,6 @@ import Image from 'next/image'
 
 const HACKATHONS = [
   {
-    name: "Seize CTRL Website",
-    content:
-      "Built the website animations for a Bitcoin Ordinals project which generated $700,000 USD in revenue using React & Framer.js",
-    link: "https://www.seizectrl.io/",
-    date: "July 2023",
-    image: <Image
-    src='/seize-ctrl.png'
-    alt='seize ctrl pic'
-    height={270}
-    width={480}
-    className='rounded-md object-cover'
-  />
-  },{
     name: "ETHDenver Hackathon",
     content:
       "Main Track Finalist (Top 15 of 350+ Submissions) and Base Bounty Winner ($5,500)  -- Led a team of four to develop Inheritable, a GDPR-compliant solution for secure, decentralized inheritance on the Base L2 through verifiable Merkle Trees, quantum-resistant dilithium signatures, and decentralized oracles.",
@@ -34,7 +21,7 @@ const HACKATHONS = [
     link: "https://github.com/ZILECAO/inheritable-final-submission",
     date: "Mar 2023", 
     image: <Image
-    src='/grizzlython.png'
+    src='/grizzlython_team.jpeg'
     alt='grizzlython pic'
     height={270}
     width={480}
