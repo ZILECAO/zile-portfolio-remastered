@@ -4,12 +4,26 @@ const PROFESSIONAL = [
   {
     name: "Seize CTRL",
     content:
-      "Built the website animations for a Bitcoin Ordinals project which generated $700,000 USD in revenue using React & Framer.js",
+      "Built the website animations for a blue-chip Bitcoin Ordinals project which generated $700,000 USD in revenue",
     link: "https://www.seizectrl.io/",
     date: "July 2023",
     image: <Image
     src='/seize-ctrl.png'
     alt='seize ctrl pic'
+    height={270}
+    width={480}
+    className='rounded-md object-cover'
+  />
+  },
+  {
+    name: "Perpetual Futures Orderbook DEX ",
+    content:
+      "Building Iguazu, a perpetual futures trading platform that provides secure, leveraged trading opportunities on the Sui network. Currently raising grant funds from the Sui Foundation.",
+    link: "https://drive.google.com/file/d/1Yn_Ib6Hw2Ixwgfdo1M6MXrMkbIR1DTfw/view?usp=sharing",
+    date: "August 2023",
+    image: <Image
+    src='/dex.png'
+    alt='perp dex pic'
     height={270}
     width={480}
     className='rounded-md object-cover'
