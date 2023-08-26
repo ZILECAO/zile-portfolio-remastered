@@ -61,7 +61,7 @@ const Home: NextPage = () => {
                     transition: { duration: .7, delay: 0.2 }
                 }}
                 onAnimationComplete={() => setShowProjects(true)}
-                className="pt-20">
+                className="pt-12">
                 <h1 id="Hackathons" className="text-3xl font-semibold font-display text-indigo-300 pb-6 px-8">Hackathons</h1>
 
                 <div
@@ -82,7 +82,7 @@ const Home: NextPage = () => {
             }
 
             {/* Personal Projects */}
-            {showProjects && <motion.section
+            {/* {showProjects && <motion.section
                 initial={{
                     opacity: 0, y: 20,
                 }}
@@ -108,7 +108,7 @@ const Home: NextPage = () => {
                     ))}
                 </div>
             </motion.section>
-            }
+            } */}
 
             {/* My Writing */}
             {showWritings && <motion.section
