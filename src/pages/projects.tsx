@@ -81,8 +81,8 @@ const Home: NextPage = () => {
             </motion.section>
             }
 
-            {/* Personal Projects */}
-            {/* {showProjects && <motion.section
+            {/* Personal Projects
+            {showProjects && <motion.section
                 initial={{
                     opacity: 0, y: 20,
                 }}
