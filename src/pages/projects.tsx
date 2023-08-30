@@ -60,7 +60,7 @@ const Home: NextPage = () => {
                     opacity: 1, y: 0,
                     transition: { duration: .7, delay: 0.2 }
                 }}
-                onAnimationComplete={() => setShowProjects(true)}
+                onAnimationComplete={() => setShowWritings(true)}
                 className="pt-12">
                 <h1 id="Hackathons" className="text-3xl font-semibold font-display text-indigo-300 pb-6 px-8">Hackathons</h1>
 
