@@ -49,7 +49,7 @@ const Projects: NextPage = () => {
             id="Hackathons"
             className="text-3xl font-semibold font-display text-gray-400 pb-6 px-8"
           >
-            Professional Work
+            Ventures
           </h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 px-8 items-start">
@@ -212,7 +212,7 @@ const Projects: NextPage = () => {
         className="flex flex-col-reverse justify-between border-t border-gray-400 bg-top pt-4 px-8 lg:flex-row"
       >
         <ul className=" flex flex-col sm:flex-row sm:space-x-5 sm:space-y-0 mb-0">
-          <a className="text-md hover:text-deep-purple-accent-400 font-semibold tracking-tight text-gray-400 transition-colors duration-300 hover:text-white">
+          <a className="text-md hover:text-deep-purple-accent-400 font-semibold font-display tracking-tight text-gray-400 transition-colors duration-300 hover:text-white">
             © 2023 Zile Cao
           </a>
         </ul>
