@@ -14,29 +14,16 @@ const HACKATHONS = [
     width={480}
     className='rounded-md object-cover'
   />
-  },{
-    name: "Solana Grizzlython Hackathon",
-    content:
-      "Honorable Mention - Selected as one of five EasyA honorable mentions out of the highly competitive 800+ submissions in the month-long hackathon. Developed Inheritable, a GDPR-compliant solution for secure, decentralized inheritance on Solana through verifiable Merkle Trees, quantum-resistant dilithium signatures, and decentralized oracles.",
-    link: "https://github.com/ZILECAO/inheritable-final-submission",
-    date: "Mar 2023", 
-    image: <Image
-    src='/grizzlython_team.jpeg'
-    alt='grizzlython pic'
-    height={270}
-    width={480}
-    className='rounded-md object-cover'
-  />
   },
   {
-    name: "Penn Blockchain Hackathon",
+    name: "HackaTRON at Harvard",
     content:
-      "1st Place Solana Track ($600) -- Led a team of five to develop Inked, a dApp using Weavechain to enable Proof-of-Discovery for research papers on Solana, ensuring immutability and time of discovery for research ideas in a decentralized and secure manner.",
-    link: "https://dorahacks.io/buidl/4278",
-    date: "Feb 2023", 
+      "4th Place ($8,000) -- Developed a group payment-splitting dApp on the TRON blockchain with a team of five, rewarding users with rebate tokens to incentivize bulk user onboarding for subscription services using TronWeb.js, Solidity, React, and Next.js",
+    link: "https://github.com/ZILECAO/GroupBy",
+    date: "Nov 2022",
     image: <Image
-    src='/pitching.JPG'
-    alt='inked slides pic'
+    src='/groupby.png'
+    alt='groupby pic'
     height={270}
     width={480}
     className='rounded-md object-cover'
@@ -57,19 +44,50 @@ const HACKATHONS = [
   />
   },
   {
-    name: "HackaTRON at Harvard",
+    name: "BCG Vechain Hackathon",
     content:
-      "4th Place ($8,000) -- Developed a group payment-splitting dApp on the TRON blockchain with a team of five, rewarding users with rebate tokens to incentivize bulk user onboarding for subscription services using TronWeb.js, Solidity, React, and Next.js",
-    link: "https://github.com/ZILECAO/GroupBy",
-    date: "Nov 2022",
+      "4th Place Technical Track ($1,000) -- Led a team of five to develop Cypress, a mobile dApp that incentivizes sustainable behavior by providing rebate $VET tokens to people who choose green transportation options. People can use these tokens to grow their digital garden, a virtual symbol of their sustainability.",
+    link: "https://www.canva.com/design/DAFwoshzffw/re0gFYJNIl08Utmvrj2X4w/view",
+    date: "Oct 2023", 
     image: <Image
-    src='/groupby.png'
-    alt='groupby pic'
+    src='/cypress.jpeg'
+    alt='cypress pic'
     height={270}
     width={480}
     className='rounded-md object-cover'
   />
   },
+  
+  {
+    name: "Penn Blockchain Hackathon",
+    content:
+      "1st Place Solana Track ($600) -- Led a team of five to develop Inked, a dApp using Weavechain to enable Proof-of-Discovery for research papers on Solana, ensuring immutability and time of discovery for research ideas in a decentralized and secure manner.",
+    link: "https://dorahacks.io/buidl/4278",
+    date: "Feb 2023", 
+    image: <Image
+    src='/pitching.JPG'
+    alt='inked slides pic'
+    height={270}
+    width={480}
+    className='rounded-md object-cover'
+  />
+  },
+  {
+    name: "Solana Grizzlython Hackathon",
+    content:
+      "Honorable Mention - Selected as one of five EasyA honorable mentions out of the highly competitive 800+ submissions in the month-long hackathon. Developed Inheritable, a GDPR-compliant solution for secure, decentralized inheritance on Solana through verifiable Merkle Trees, quantum-resistant dilithium signatures, and decentralized oracles.",
+    link: "https://github.com/ZILECAO/inheritable-final-submission",
+    date: "Mar 2023", 
+    image: <Image
+    src='/grizzlython_team.jpeg'
+    alt='grizzlython pic'
+    height={270}
+    width={480}
+    className='rounded-md object-cover'
+  />
+  },
+  
+  
 ];
 
 export { HACKATHONS };

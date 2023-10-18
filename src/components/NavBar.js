@@ -31,7 +31,7 @@ export function NavBar() {
 
           <div className="flex text-sm items-center gap-6 justify-start">
 
-            <Link href="/projects">
+            <Link href="#Projects">
                 <p className="hidden md:block lg:block cursor-pointer text-sm font-semibold text-gray-400 hover:text-gray-500 hover:ease-in-out hover:transition hover:duration-700">
                   Projects
                 </p>

@@ -4,7 +4,7 @@ const PROFESSIONAL = [
   {
     name: "Seize CTRL",
     content:
-      "Built the website animations for a blue-chip Bitcoin Ordinals project which generated $700,000 USD in revenue",
+      "(Frontend Developer) Built the website animations for a blue-chip Bitcoin Ordinals project which generated $700,000 USD in revenue",
     link: "https://www.seizectrl.io/",
     date: "July 2023",
     image: <Image
@@ -16,14 +16,14 @@ const PROFESSIONAL = [
   />
   },
   {
-    name: "Perpetual Futures Orderbook DEX ",
+    name: "Iguazu Finance",
     content:
-      "Building Iguazu, a perpetual futures trading platform that provides secure, leveraged trading opportunities on the Sui network. Currently raising grant funds from the Sui Foundation.",
-    link: "https://drive.google.com/file/d/1Yn_Ib6Hw2Ixwgfdo1M6MXrMkbIR1DTfw/view?usp=sharing",
+      "(Co-Founder) Building a perpetual futures trading platform that provides secure, leveraged trading opportunities on the Sui network. Raised $50,000 in grant funds from the Sui Foundation.",
+    link: "https://iguazu-landing-six.vercel.app/",
     date: "August 2023",
     image: <Image
-    src='/dex.png'
-    alt='perp dex pic'
+    src='/iguazu.png'
+    alt='iguazu pic'
     height={270}
     width={480}
     className='rounded-md object-cover'
@@ -32,7 +32,7 @@ const PROFESSIONAL = [
   {
     name: "Solana Accelerator Program",
     content:
-      "(Founder of team of 4) Building a Web3 Inheritance Wills platform through the selective Solana summer accelerator program with 120 followers on Twitter and demoed MVP to 1,000+ audience and 10+ VC firms.",
+      "(Founder) Building a Web3 Inheritance Wills platform through the selective Solana summer accelerator program with 120 followers on Twitter and demoed MVP to 1,000+ audience and 10+ VC firms.",
     link: "https://twitter.com/Inheritable_xyz",
     date: "June 2023",
     image: <Image
