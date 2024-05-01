@@ -51,7 +51,6 @@ const WalletConnect = () => {
         if (window.ethereum !== 'undefined') {
             await requestAccount();
 
-            const provider = new ethers.providers.Web3Provider(window.ethereum);
 
         } else {
             var popup = alert(
@@ -68,7 +67,7 @@ Install at: https://metamask.io/`
             console.log("connected")
             return (
                 <>
-                    <Link href="https://copper-dirty-goose-489.mypinata.cloud/ipfs/QmQDHHyt6pNRCxJnppiDtvH4c5uHrg9oQPf59FDNUinP3a?_gl=1*dnhkvd*_ga*Y2YyOTEzZDYtZDk3YS00MjQ1LTlmNTgtNDFjMDE0YjQxY2U4*_ga_5RMPXG14TE*MTY5MTk2OTUwMC4xMC4xLjE2OTE5Njk1MTkuNDEuMC4w">
+                    <Link href="https://drive.google.com/file/d/1J6XHiktDY0NJajyV1YlGXnikniOH7OnE/view?usp=sharing">
                     <button
 
                         className='hidden md:block lg:block cursor-pointer text-sm font-semibold text-gray-400 hover:text-gray-500 hover:ease-in-out hover:transition hover:duration-700'>

@@ -16,6 +16,20 @@ const HACKATHONS = [
   />
   },
   {
+    name: "Penn Blockchain Hackathon",
+    content:
+      "1st Place Solana Track ($600) -- Led a team of five to develop Inked, a dApp using Weavechain to enable Proof-of-Discovery for research papers on Solana, ensuring immutability and time of discovery for research ideas in a decentralized and secure manner.",
+    link: "https://dorahacks.io/buidl/4278",
+    date: "Feb 2023", 
+    image: <Image
+    src='/pitching.JPG'
+    alt='inked slides pic'
+    height={270}
+    width={480}
+    className='rounded-md object-cover'
+  />
+  },
+  {
     name: "HackaTRON at Harvard",
     content:
       "4th Place ($8,000) -- Developed a group payment-splitting dApp on the TRON blockchain with a team of five, rewarding users with rebate tokens to incentivize bulk user onboarding for subscription services using TronWeb.js, Solidity, React, and Next.js",
@@ -24,6 +38,20 @@ const HACKATHONS = [
     image: <Image
     src='/groupby.png'
     alt='groupby pic'
+    height={270}
+    width={480}
+    className='rounded-md object-cover'
+  />
+  },
+  {
+    name: "EthNewYork Hackathon",
+    content:
+      "LuckyApe allows users to gamble their hard-earned ApeCoin socially for the chance to win big while supporting the ApeCoin ecosystem. Users can verify that proceeds are split transparently between the prize pool and ApeCasino (or channeled back into the ecosystem), as well as audit overall game fairness, receiving a near-instant payoff if successful.      ",
+    link: "https://ethglobal.com/showcase/luckyape-prdz4",
+    date: "Oct 2023", 
+    image: <Image
+    src='/luckyape.png'
+    alt='luckyape pic'
     height={270}
     width={480}
     className='rounded-md object-cover'
@@ -43,35 +71,8 @@ const HACKATHONS = [
     className='rounded-md object-cover'
   />
   },
-  {
-    name: "BCG Vechain Hackathon",
-    content:
-      "4th Place Technical Track ($1,000) -- Led a team of five to develop Cypress, a mobile dApp that incentivizes sustainable behavior by providing rebate $VET tokens to people who choose green transportation options. People can use these tokens to grow their digital garden, a virtual symbol of their sustainability.",
-    link: "https://www.canva.com/design/DAFwoshzffw/re0gFYJNIl08Utmvrj2X4w/view",
-    date: "Oct 2023", 
-    image: <Image
-    src='/cypress.jpeg'
-    alt='cypress pic'
-    height={270}
-    width={480}
-    className='rounded-md object-cover'
-  />
-  },
-  
-  {
-    name: "Penn Blockchain Hackathon",
-    content:
-      "1st Place Solana Track ($600) -- Led a team of five to develop Inked, a dApp using Weavechain to enable Proof-of-Discovery for research papers on Solana, ensuring immutability and time of discovery for research ideas in a decentralized and secure manner.",
-    link: "https://dorahacks.io/buidl/4278",
-    date: "Feb 2023", 
-    image: <Image
-    src='/pitching.JPG'
-    alt='inked slides pic'
-    height={270}
-    width={480}
-    className='rounded-md object-cover'
-  />
-  },
+ 
+
   {
     name: "Solana Grizzlython Hackathon",
     content:
@@ -86,6 +87,7 @@ const HACKATHONS = [
     className='rounded-md object-cover'
   />
   },
+
   
   
 ];

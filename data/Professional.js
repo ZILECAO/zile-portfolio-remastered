@@ -4,12 +4,40 @@ const PROFESSIONAL = [
   {
     name: "Seize CTRL",
     content:
-      "(Frontend Developer) Built the website animations for a blue-chip Bitcoin Ordinals project which generated $700,000 USD in revenue",
+      "(Frontend Developer) Built the website animations for a blue-chip Bitcoin Ordinals NFT project",
     link: "https://www.seizectrl.io/",
     date: "July 2023",
     image: <Image
     src='/seize-ctrl.png'
     alt='seize ctrl pic'
+    height={270}
+    width={480}
+    className='rounded-md object-cover'
+  />
+  },
+ 
+  {
+    name: "Rumble 4",
+    content:
+      "Building a fully on-chain ZKP dungeon-crawler game. Partnering with Seismic Labs and Argus Labs",
+    link: "https://x.com/lyronctk/status/1778169511981572276",
+    date: "Apr 2024", 
+    image: <Image
+    src='/rumble4.png'
+    alt='rumble 4 pic'
+    height={270}
+    width={480}
+    className='rounded-md object-cover'
+  />
+  }, {
+    name: "Cypress Labs",
+    content:
+      "(Co-Founder) Building a mobile dApp that incentivizes sustainabile transportation. Received a $30,000 grant from the Vechain Foundation",
+    link: "https://www.canva.com/design/DAFwoshzffw/re0gFYJNIl08Utmvrj2X4w/view",
+    date: "Oct 2023", 
+    image: <Image
+    src='/cypress.png'
+    alt='cypress pic'
     height={270}
     width={480}
     className='rounded-md object-cover'

@@ -2,6 +2,20 @@ import Image from 'next/image'
 
 const MY_WRITING = [
   {
+    name: "Bitcoin Ordinals — Artifacts Reshaping the Digital Asset Narrative",
+    content:
+      "Published a blog post for the LGST2440 Wharton Blockchain Regulations Course on Substack",
+    link: "https://whartonblockchain.substack.com/p/bitcoin-ordinals-artifacts-reshaping",
+    date: "March 2024",
+    image: <Image
+    src='/ordinals.jpg'
+    alt='data brokerage pic'
+    height={270}
+    width={480}
+    className='rounded-md object-cover'
+  />
+  },
+  {
     name: "How Web3 Can Transform Personal Data Ownership",
     content:
       "Published a blog post for the Weavechain publication on Medium; includes a webinar interview with Iain Henderson, Founder of DataYogi.",

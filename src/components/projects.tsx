@@ -166,7 +166,7 @@ const Projects: NextPage = () => {
           initial={{ opacity: 0, y: 10 }}
           animate={inView3 ? { opacity: 1, y: 0 } : { opacity: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="pt-20 pb-16"
+          className="pt-20 pb-32"
           onAnimationComplete={() => setShowFooter(true)}
         >
           <h1
@@ -175,7 +175,7 @@ const Projects: NextPage = () => {
           >
             My Writing
           </h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 px-8 items-start">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 px-8 items-start">
             {MY_WRITING.map(({ name, content, link, date, image }, index) => (
               <div
                 key={index}
@@ -208,7 +208,7 @@ const Projects: NextPage = () => {
         ref={ref4}
         initial={{ opacity: 0, y: 10 }}
         animate={inView4 ? { opacity: 1, y: 0 } : { opacity: 0 }}
-        transition={{ duration: 0.5, delay: 0.3 }}
+        transition={{ duration: 0.1, delay: 0 }}
         className="flex flex-col-reverse justify-between border-t border-gray-400 bg-top pt-4 px-8 lg:flex-row"
       >
         <ul className=" flex flex-col sm:flex-row sm:space-x-5 sm:space-y-0 mb-0">
