@@ -16,5 +16,25 @@
     @apply scroll-smooth;
   }
 
+  html, body {
+    background-color: #27272A; /* Replace this with your desired background color */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+/* Hide scrollbar for all elements */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+/* Hide scrollbar for WebKit browsers */
+*::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+
 }
 

@@ -17,14 +17,14 @@ const PROFESSIONAL = [
   },
  
   {
-    name: "Rumble 4",
+    name: "ArcaneReveal",
     content:
       "Building a fully on-chain ZKP dungeon-crawler game. Partnering with Seismic Labs and Argus Labs",
-    link: "https://x.com/lyronctk/status/1778169511981572276",
+    link: "https://github.com/FranklinDAO-Dev-Team/ArcaneReveal",
     date: "Apr 2024", 
     image: <Image
-    src='/rumble4.png'
-    alt='rumble 4 pic'
+    src='/ArcaneReveal.png'
+    alt='ArcaneReveal pic'
     height={270}
     width={480}
     className='rounded-md object-cover'
@@ -46,7 +46,7 @@ const PROFESSIONAL = [
   {
     name: "Iguazu Finance",
     content:
-      "(Co-Founder) Building a perpetual futures trading platform that provides secure, leveraged trading opportunities on the Sui network. Raised $50,000 in grant funds from the Sui Foundation.",
+      "(Co-Founder) Building a perpetual futures trading platform that provides secure, leveraged trading opportunities on the Sui network. Received $50,000 in grant funds from the Sui Foundation.",
     link: "https://iguazu-landing-six.vercel.app/",
     date: "August 2023",
     image: <Image

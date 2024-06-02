@@ -56,7 +56,7 @@ const Projects: NextPage = () => {
             {PROFESSIONAL.map(({ name, content, link, date, image }, index) => (
               <div
                 key={index}
-                className="p-4 transition duration-700 ease-in-out backdrop-brightness-50 backdrop-blur-md text-gray-100 shadow-xs shadow-black rounded-lg hover:shadow-2xl hover:shadow-black"
+                className="p-4 transition duration-700 ease-in-out hover:backdrop-brightness-50 backdrop-blur-md text-gray-100 shadow-xs shadow-black rounded-lg hover:shadow-2xl hover:shadow-black"
               >
                 <h3 className="font-display font-medium text-2xl mb-4">
                   {name}
@@ -104,7 +104,7 @@ const Projects: NextPage = () => {
             {HACKATHONS.map(({ name, content, link, date, image }, index) => (
               <div
                 key={index}
-                className="p-4 transition duration-700 ease-in-out backdrop-brightness-50 backdrop-blur-md text-gray-100 shadow-xs shadow-black rounded-lg hover:shadow-2xl hover:shadow-black"
+                className="p-4 transition duration-700 ease-in-out hover:backdrop-brightness-50 backdrop-blur-md text-gray-100 shadow-xs shadow-black rounded-lg hover:shadow-2xl hover:shadow-black"
               >
                 <h3 className="font-display font-medium text-2xl mb-4">
                   {name}
@@ -145,7 +145,7 @@ const Projects: NextPage = () => {
                 <div
                     className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 px-8 items-start'>
                     {PERSONAL_PROJECTS.map(({ name, content, link, date, image}, index) => (
-                        <div key={index} className='p-4 transition duration-700 ease-in-out backdrop-brightness-50 backdrop-blur-md text-gray-100 shadow-xs shadow-black rounded-lg hover:shadow-2xl hover:shadow-black'>
+                        <div key={index} className='p-4 transition duration-700 ease-in-out hover:backdrop-brightness-50 backdrop-blur-md text-gray-100 shadow-xs shadow-black rounded-lg hover:shadow-2xl hover:shadow-black'>
                             <h3 className="font-display font-medium text-2xl mb-4">{name}</h3>
                             <div className="w-full relative rounded-lg duration-5 mb-4">{image}</div>
                             <p className="text-sm text-gray-400 font-display max-w-md mb-4">{content}</p>
@@ -179,7 +179,7 @@ const Projects: NextPage = () => {
             {MY_WRITING.map(({ name, content, link, date, image }, index) => (
               <div
                 key={index}
-                className="p-4 transition duration-700 ease-in-out backdrop-brightness-50 backdrop-blur-md text-gray-100 shadow-xs shadow-black rounded-lg hover:shadow-2xl hover:shadow-black"
+                className="p-4 transition duration-700 ease-in-out hover:backdrop-brightness-50 backdrop-blur-md text-gray-100 shadow-xs shadow-black rounded-lg hover:shadow-2xl hover:shadow-black"
               >
                 <h3 className="font-display font-medium text-2xl mb-4">
                   {name}

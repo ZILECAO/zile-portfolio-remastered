@@ -9,7 +9,6 @@ import delay from "delay";
 import Projects from "../components/projects";
 import { useInView } from "react-intersection-observer";
 
-
 const Home: NextPage = () => {
   // UseState variables
   const [showContent, setShowContent] = useState<boolean>(false);
@@ -69,7 +68,15 @@ const Home: NextPage = () => {
                 variants={Animations.FadeRight}
                 className="text-gray-400 text-base font-medium font-serif md:w-[92%] my-5"
               >
-I am a senior at the University of Pennsylvania studying economics and computer science. I specialize in full-stack blockchain development, though currently I am on a short hiatus exploring crypto ventures at Metaversal. I am also a director for Penn Blockchain and a university ambassador for the Solana Foundation. I am most interested in Bitcoin Ordinals, DeFi, Web3 private data, and blockchain gaming!              </motion.p>
+                I am a crypto-native builder currently exploring early-stage
+                web3 infrastructure at Blockchain Capital. I recently completed
+                my bachelors in economics at the University of Pennsylvania,
+                where I was the director of engineering for Penn Blockchain and
+                a Solana ambassador. Previously, I was an analyst at Metaversal
+                Ventures, leading portfolio valuation and management. I am most
+                interested in Bitcoin Ordinals, Web3 private data, and
+                blockchain gaming.{" "}
+              </motion.p>
             )}
 
             {showContent && (
@@ -197,15 +204,15 @@ I am a senior at the University of Pennsylvania studying economics and computer 
       </motion.section>
 
       <motion.h1
-      ref={ref1}
-      initial={{ opacity: 0, y: 10 }}
-      animate={inView1 ? { opacity: 1, y: 0 } : { opacity: 0 }}
-      transition={{ duration: 0.5, delay: 0.35 }}
-            id="Projects"
-            className="text-5xl text-center font-semibold font-display text-indigo-300 pb-10 mt-24 lg:mt-0 px-8"
-          >
-            Projects
-          </motion.h1>
+        ref={ref1}
+        initial={{ opacity: 0, y: 10 }}
+        animate={inView1 ? { opacity: 1, y: 0 } : { opacity: 0 }}
+        transition={{ duration: 0.5, delay: 0.35 }}
+        id="Projects"
+        className="text-5xl text-center font-semibold font-display text-indigo-300 pb-10 mt-24 lg:mt-0 px-8"
+      >
+        Projects
+      </motion.h1>
       <Projects />
     </div>
   );
