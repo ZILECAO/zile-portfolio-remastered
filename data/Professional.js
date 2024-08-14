@@ -2,14 +2,14 @@ import Image from 'next/image'
 
 const PROFESSIONAL = [
   {
-    name: "Seize CTRL",
+    name: "Radiant Chests",
     content:
-      "(Frontend Developer) Built the website animations for a blue-chip Bitcoin Ordinals NFT project",
-    link: "https://www.seizectrl.io/",
-    date: "July 2023",
+      "Building a fast and seamless fully onchain EVM Telegram mini-app, with embedded wallet support and real monetary rewards via the native gas token",
+    link: "https://t.me/RadiantChests_Bot/RadiantChests",
+    date: "Jun 2024", 
     image: <Image
-    src='/seize-ctrl.png'
-    alt='seize ctrl pic'
+    src='/radiant_chests2.png'
+    alt='ArcaneReveal pic'
     height={270}
     width={480}
     className='rounded-md object-cover'
@@ -25,6 +25,20 @@ const PROFESSIONAL = [
     image: <Image
     src='/ArcaneReveal.png'
     alt='ArcaneReveal pic'
+    height={270}
+    width={480}
+    className='rounded-md object-cover'
+  />
+  },
+  {
+    name: "Seize CTRL",
+    content:
+      "Built the website animations for a blue-chip Bitcoin Ordinals NFT project",
+    link: "https://www.seizectrl.io/",
+    date: "Jul 2023",
+    image: <Image
+    src='/seize-ctrl.png'
+    alt='seize ctrl pic'
     height={270}
     width={480}
     className='rounded-md object-cover'
@@ -47,8 +61,8 @@ const PROFESSIONAL = [
     name: "Iguazu Finance",
     content:
       "(Co-Founder) Building a perpetual futures trading platform that provides secure, leveraged trading opportunities on the Sui network. Received $50,000 in grant funds from the Sui Foundation.",
-    link: "https://iguazu-landing-six.vercel.app/",
-    date: "August 2023",
+    link: "https://www.binance.com/en-AE/square/post/1376789",
+    date: "Aug 2023",
     image: <Image
     src='/iguazu.png'
     alt='iguazu pic'
@@ -62,7 +76,7 @@ const PROFESSIONAL = [
     content:
       "(Founder) Building a Web3 Inheritance Wills platform through the selective Solana summer accelerator program with 120 followers on Twitter and demoed MVP to 1,000+ audience and 10+ VC firms.",
     link: "https://twitter.com/Inheritable_xyz",
-    date: "June 2023",
+    date: "Jun 2023",
     image: <Image
     src='/accelerator.jpeg'
     alt='solana accelerator pic'

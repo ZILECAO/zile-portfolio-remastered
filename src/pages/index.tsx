@@ -19,12 +19,12 @@ const Home: NextPage = () => {
   });
 
   return (
-    <div className="mx-auto max-w-none py-6 sm:px-6 lg:px-12 bg-zinc-800 pt-24">
+    <div className="mx-auto max-w-none sm:px-6 lg:px-12 bg-zinc-800 pb-6">
       {/* Splash Screen */}
       <motion.section
         initial="hidden"
         animate="visible"
-        className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 px-8 min-h-screen"
+        className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 px-8 pb-[16vh] min-h-screen items-center"
       >
         {/* Picture */}
         {showImage && (
