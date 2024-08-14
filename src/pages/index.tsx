@@ -12,35 +12,19 @@ import { useInView } from "react-intersection-observer";
 const Home: NextPage = () => {
   // UseState variables
   const [showContent, setShowContent] = useState<boolean>(false);
-  const [showImage, setShowImage] = useState<boolean>(false);
   const [showButtons, setShowButtons] = useState<boolean>(false);
   const [ref1, inView1] = useInView({
     triggerOnce: true, // Animation for video appear on scroll
   });
 
   return (
-    <div className="mx-auto max-w-none sm:px-6 lg:px-12 bg-zinc-800 pb-6">
+    <div className="mx-auto max-w-none sm:px-6 lg:px-12 bg-zinc-800 lg:pb-6 lg:pt-0 pt-12">
       {/* Splash Screen */}
       <motion.section
         initial="hidden"
         animate="visible"
-        className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 px-8 pb-[16vh] min-h-screen items-center"
+        className="grid grid-cols-1 gap-8 px-8 pb-[16vh] min-h-screen lg:items-center"
       >
-        {/* Picture */}
-        {showImage && (
-          <motion.div
-            variants={Animations.picture}
-            className="relative h-64 overflow-hidden rounded-lg sm:h-80 order-last lg:h-full duration-5 hover:ease-in-out shadow-md shadow-black"
-          >
-            <Image
-              src="/car.webp"
-              alt="landing page picture"
-              className="rounded-md object-cover"
-              layout="fill"
-            />
-          </motion.div>
-        )}
-
         {/* Animated Letters */}
         <div className="pb-8">
           <motion.div
@@ -184,7 +168,6 @@ const Home: NextPage = () => {
                   transition: { duration: 0.7, delay: 0.2 },
                 }}
                 className="flex flex-row justify-start gap-4 items-center"
-                onAnimationComplete={() => setShowImage(true)}
               >
                 <Link href="#Projects">
                   <a className="font-bold mt-8 inline-flex items-center rounded bg-indigo-500 px-6 py-3 hover:bg-indigo-600 focus:outline-none focus:ring active:text-indigo-500 text-gray-300 hover:ease-in-out hover:transition hover:duration-700">
